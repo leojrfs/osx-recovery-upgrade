@@ -16,7 +16,7 @@ pkgutil --expand /Volumes/Mac\ OS\ X\ Lion\ Recovery\ HD\ Update/RecoveryHDUpdat
 
 #access BaseSystem.dmg and BaseSystem.chunklist
 echo "Expanding InstallESD.dmg"
-hdiutil attach -nobrowse "/Applications/OS X Yosemite"/Contents/SharedSupport/InstallESD.dmg
+hdiutil attach -nobrowse /Applications/Install\ OS\ X\ Yosemite/Contents/SharedSupport/InstallESD.dmg
 
 #build Recovery partition
 echo "Building Recovery Partition. Please Wait"
