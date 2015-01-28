@@ -8,6 +8,7 @@ script to upgrade the OSX recovery partition
 Upgrade Yosemite OSX installer to the desired version and esure that it resides on ```/Applications```
 
 ```
+chmod +x osx-recovery-upgrade.sh
 sh ./osx-recovery-upgrade.sh
 ```
 
